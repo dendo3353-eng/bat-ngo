@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5e9dc">
+  <title>Một bất ngờ dành cho em</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <span class="star s1">✦</span><span class="star s2">✧</span><span class="star s3">✦</span>
+    <span class="star s4">✧</span><span class="star s5">✦</span>
+  </div>
+  <main class="site-shell">
+    <header class="topline">
+      <span class="tiny-mark">♡</span>
+      <span>MỘT ĐIỀU NHỎ DÀNH RIÊNG CHO EM</span>
+      <span class="tiny-mark">♡</span>
+    </header>
+
+    <section class="scene welcome active" id="welcome">
+      <div class="intro-copy">
+        <p class="eyebrow">19 · 11 · A LITTLE SURPRISE</p>
+        <h1>Anh có một<br><em>bất ngờ</em> dành cho em</h1>
+        <p class="lead">Có một nơi nho nhỏ anh đã chuẩn bị.<br>Em có muốn cùng anh khám phá không?</p>
+        <button class="primary-btn" id="startBtn">Nắm tay anh nhé <span>→</span></button>
+        <p class="microcopy">Một hành trình nhỏ, gom góp những điều dễ thương.</p>
+      </div>
+      <div class="boy-wrap">
+        <div class="halo"></div>
+        <img class="boy" src="assets/characters/boy-welcome.png" alt="Chàng trai chibi mặc áo len kem đang vẫy tay chào">
+        <div class="speech">Em đến rồi à? ♡</div>
+      </div>
+      <div class="archway" aria-hidden="true"><div class="arch-glow"></div><div class="arch-door left"></div><div class="arch-door right"></div></div>
+    </section>
+
+    <section class="scene garden" id="garden" aria-hidden="true">
+      <div class="scene-heading">
+        <p class="eyebrow">CHƯƠNG 01 · KHU VƯỜN NHỎ</p>
+        <h2>Chào mừng em đến<br><em>khu vườn của anh</em></h2>
+        <p>Ở đây có vài điều anh muốn em tìm thấy.</p>
+      </div>
+      <div class="garden-path">
+        <button class="flower f1" data-flower="0" aria-label="Nhặt bông hoa thứ nhất">✿</button>
+        <button class="flower f2" data-flower="1" aria-label="Nhặt bông hoa thứ hai">✿</button>
+        <button class="flower f3" data-flower="2" aria-label="Nhặt bông hoa thứ ba">✿</button>
+        <span class="path-line"></span>
+      </div>
+      <div class="progress-note" id="progress">Em đã tìm được 0/3 bông hoa</div>
+      <button class="primary-btn letter-btn" id="letterBtn" disabled>Mở lá thư của anh <span>♡</span></button>
+      <button class="text-btn" id="backBtn">← Quay lại lời chào</button>
+    </section>
+
+    <section class="scene letter-scene" id="letter" aria-hidden="true">
+      <div class="letter-card">
+        <p class="eyebrow">GỬI EM · TỪ ANH</p>
+        <div class="letter-icon">✉</div>
+        <h2>Một lời nhắn<br><em>nhỏ dành cho em</em></h2>
+        <p class="letter-body" id="letterBody">Cảm ơn em đã bước vào khu vườn nhỏ này. Mong rằng mỗi ngày của em đều có thật nhiều niềm vui, những điều dịu dàng và những bất ngờ đáng yêu.</p>
+        <p class="signature">— Người đã chuẩn bị khu vườn này ♡</p>
+        <button class="primary-btn" id="againBtn">Trở lại khu vườn <span>↗</span></button>
+      </div>
+    </section>
+    <footer>Made with care · 19/11</footer>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
